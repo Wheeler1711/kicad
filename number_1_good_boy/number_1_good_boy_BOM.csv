@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"Battery_Cell","BT1","Battery:BatteryHolder_Keystone_1058_1x2032",""
+"CAP 0.01uF","C1","Capacitor_SMD:C_0603_1608Metric","C57112"
+"C 10uF","C2","Capacitor_SMD:C_0603_1608Metric"," C19702"
+"LED","D1,D2,D3,D4,D5,D6,D7,D8,D9,D10","LED_SMD:LED_0603_1608Metric","C158100"
+"XLR3_Switched","J1","switch:surface_mount_switch_SK-3296S-01-L2","C500051"
+"R 2.2K","R1","Resistor_SMD:R_0603_1608Metric","C4190"
+"R 10K","R2,R3","Resistor_SMD:R_0603_1608Metric","C25804"
+"NE555","U1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C7593"
+"4017","U2","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","C11349"
