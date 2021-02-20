@@ -3,7 +3,7 @@
 
 ![number_1_good_boy_demo](number_1_good_boy.gif)
 
-One day my number 1 good boy through no fault of his own lost all of his dog tags. So naturally instead of simply buying him a new dog tag, I decided to make a special dog tag for my special boy so that everyone would now just how special he is. 
+One day my number 1 good boy through no fault of his own lost all of his dog tags. So naturally instead of simply buying him a new dog tag at minimal cost and effort, I decided to make a special dog tag for my special boy so that everyone would now just how special he is. 
 
 I wanted some blinking LEDs and after a bit of google ended up deciding on an LED chaser circuit e.g. [Nuts and Volts](https://www.nutsvolts.com/magazine/article/led-chaser-sequencer-circuits) or [Electro Schematics](https://www.electroschematics.com/led-chaser/).
 
