@@ -48,7 +48,7 @@ Finally, I also need the SMD [part](https://www.digikey.com/en/products/detail/k
 
 A couple weeks later my pcbs arrived and I just had to quickly solder on the battery holder which given the large contacts was no trouble at all.
 
-![battery_side](images/battery_sid.jpg)
+![battery_side](images/battery_side.jpg)
 
 To my suprise the board worked right out of the box (not the usual sitituation for many of my projects). Since the board doesn't have any micro contollers there is no need to program anything and it just works right away. Of course if you made a tag with a microcontroller you program in new blinking patterns. The final product is shown at the very top of the page. And below is a picture of my #1 good boy showing off his new bling. Warning this is not recommend for good doggo's who might be tempted to eat batteries. 
 
