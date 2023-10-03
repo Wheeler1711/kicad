@@ -1,0 +1,238 @@
+(export 
+  (version D) 
+  (design 
+    (source /Users/jdw8/Documents/kicad/bias_T_launch_cpw//bias_T_launch_cpw.sch) 
+    (date "Wednesday, August 11, 2021 at 12:18:42 PM") 
+    (tool "Eeschema (5.1.5-0-10_14)") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source bias_T_launch_cpw.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value bias_T) 
+      (footprint my_rf:mini_circuits_gu1414) 
+      (libsource 
+        (lib my_symbols) 
+        (part bias_T) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6112FD1B)) 
+    (comp 
+      (ref J1) 
+      (value Conn_Coaxial) 
+      (footprint my_rf:44mil_microstrip) 
+      (datasheet " ~") 
+      (libsource 
+        (lib Connector) 
+        (part Conn_Coaxial) 
+        (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61130C5D)) 
+    (comp 
+      (ref J3) 
+      (value Conn_Coaxial) 
+      (footprint my_rf:cpw_31_trace_16p5_gap) 
+      (datasheet " ~") 
+      (libsource 
+        (lib Connector) 
+        (part Conn_Coaxial) 
+        (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 611411CB)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x01_Male) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x01_Male) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61142390)) 
+    (comp 
+      (ref C1) 
+      (value CAP) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib pspice) 
+        (part CAP) 
+        (description "Capacitor symbol for simulation only")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6114418B))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x01_Male) 
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x01_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_Coaxial) 
+      (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)") 
+      (docs " ~") 
+      (footprints 
+        (fp *BNC*) 
+        (fp *SMA*) 
+        (fp *SMB*) 
+        (fp *SMC*) 
+        (fp *Cinch*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_Coaxial)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name In) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Ext) 
+          (type passive)))) 
+    (libpart 
+      (lib my_symbols) 
+      (part bias_T) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) bias_T)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type input)))) 
+    (libpart 
+      (lib pspice) 
+      (part CAP) 
+      (aliases 
+        (alias C)) 
+      (description "Capacitor symbol for simulation only") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) CAP)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "/Library/Application Support/kicad/library/Connector.lib")) 
+    (library 
+      (logical my_symbols) 
+      (uri /Users/jdw8/Documents/kicad/my_symbols.lib)) 
+    (library 
+      (logical pspice) 
+      (uri "/Library/Application Support/kicad/library/pspice.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(J1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name "Net-(J3-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name "Net-(C1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name "Net-(C1-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 2)))))

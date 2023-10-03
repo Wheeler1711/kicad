@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bias_T_launch-rescue")(type "KiCad")(uri "${KIPRJMOD}/bias_T_launch-rescue.kicad_sym")(options "")(descr ""))
+)
